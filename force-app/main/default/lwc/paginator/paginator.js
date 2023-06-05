@@ -23,11 +23,11 @@ export default class Paginator extends LightningElement {
     }
 
     get isNotFirstPage() {
-        return this.pageNumber !== 1;
+        return this.pageNumber > 1;
     }
 
     get isNotLastPage() {
-        return this.pageNumber !== this.totalPages;
+        return this.pageNumber < this.totalPages;
     }
 
     get totalPages() {
