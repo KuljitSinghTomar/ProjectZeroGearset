@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
-        <application>Dreamhouse</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <default>true</default>
         <visible>true</visible>
@@ -2704,9 +2699,6 @@
         <layout>AuthorizationFormDataUse-Authorization Form Data Use Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Broker__c-Broker Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2758,6 +2750,12 @@
         <layout>Order-Order Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Order_Item__c-Order Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Order__c-Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Payment-Payment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2770,7 +2768,10 @@
         <layout>Product2-Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Property__c-Property Layout</layout>
+        <layout>Product_Family__c-Product Family Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product__c-Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Refund-Refund Layout</layout>
@@ -3003,23 +3004,19 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>Broker__c</tab>
+        <tab>Order__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Property_Explorer</tab>
+        <tab>Product_Explorer</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Property_Finder</tab>
+        <tab>Product_Family__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Property__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Settings</tab>
+        <tab>Product__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
