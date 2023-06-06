@@ -2750,6 +2750,12 @@
         <layout>Order-Order Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Order_Item__c-Order Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Order__c-Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Payment-Payment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2760,6 +2766,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Product2-Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product_Family__c-Product Family Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product__c-Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Refund-Refund Layout</layout>
@@ -2991,6 +3003,22 @@
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Order__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Product_Explorer</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Product_Family__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Product__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AlternativePaymentMethod</tab>
         <visibility>DefaultOn</visibility>
